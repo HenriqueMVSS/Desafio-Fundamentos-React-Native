@@ -1,10 +1,10 @@
 // For a detailed explanation regarding each configuration property, visit:
-
+// https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
-  https://jestjs.io/docs/en/configuration.html
+
   // Stop running tests after `n` failures
   // bail: 0,
 
@@ -114,11 +114,10 @@ module.exports = {
   // The root directory that Jest should scan for tests and modules within
   // rootDir: undefined,
 
-   //A list of paths to directories that Jest should use to search for files in
-  roots: [
-     "<rootDir>",
-     " /home/deploy/tmp/452d5347-2f42-4dd2-b976-e0956842c058/implementation"
-   ],
+  // A list of paths to directories that Jest should use to search for files in
+  // roots: [
+  //   "<rootDir>"
+  // ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
