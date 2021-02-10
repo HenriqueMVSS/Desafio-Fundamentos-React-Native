@@ -1,5 +1,5 @@
 // For a detailed explanation regarding each configuration property, visit:
-// https://jestjs.io/docs/en/configuration.html
+https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
   // All imported modules in your tests should be mocked automatically
@@ -114,10 +114,10 @@ module.exports = {
   // The root directory that Jest should scan for tests and modules within
   // rootDir: undefined,
 
-  // A list of paths to directories that Jest should use to search for files in
-  // roots: [
-  //   "<rootDir>"
-  // ],
+   //A list of paths to directories that Jest should use to search for files in
+  roots: [
+     "<rootDir>"
+   ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
