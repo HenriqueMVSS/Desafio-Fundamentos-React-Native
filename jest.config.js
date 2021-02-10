@@ -116,7 +116,8 @@ module.exports = {
 
    //A list of paths to directories that Jest should use to search for files in
   roots: [
-     "<rootDir>"
+     "<rootDir>",
+     " /home/deploy/tmp/452d5347-2f42-4dd2-b976-e0956842c058/implementation"
    ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
